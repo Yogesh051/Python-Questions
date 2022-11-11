@@ -1,0 +1,13 @@
+'''Write a program to display all prime numbers within a range.
+Take the user input for start and end of range'''
+
+min = int(input("Enter the min number of the range :"))
+max = int(input("Enter the max number of the range :"))
+for n in range(min,max + 1):
+    if n>1:
+        for i in range(2,n):
+            if(n%i)==0:
+              break
+        else:
+            print(n)
+          
