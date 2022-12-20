@@ -1,0 +1,11 @@
+data1 = input("data1: ")
+data2 = input("data2: ")
+list1 = data1.split(",")
+list2 = data2.split(",")
+dict1 = dict(zip(list1, list2))
+print(dict1)
+print(dict1.keys())
+print(dict1.values())
+print(dict1.items())
+print("Dictionary : %s" %str(dict1))
+
